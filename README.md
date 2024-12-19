@@ -23,8 +23,8 @@ Example : Hausfater P, Mégarbane B, Dautheville S, et al (2010) Prognostic fact
 
 ### For websites:
 
-Il faut faire figurer à la fin la date de dernier accès au site :
+The date of last access to the site must be included at the end:
 
 Example : Samu-urgences de France (2016) Livre blanc. Organisation de la médecine d’urgence en France : un défi pour l’avenir. http://www.samu-defrance.fr/documents/actus/129/821/livre-blancsudf-151015.pdf (Dernier accès le 5 janvier 2016)
 
-Les abstracts datant de plus de 3 ans ne peuvent être cités en référence.
+Abstracts older than 3 years cannot be cited as references.

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" default-locale="fr-FR" version="1.0.2" demote-non-dropping-particle="sort-only">
+  <info>
+    <title>Annales Françaises de Médecine d'Urgence</title>
+    <id>http://www.zotero.org/styles/annales-medecine-urgence</id>
+    <link href="http://www.zotero.org/styles/annales-medecine-urgence" rel="self"/>
+    <author>
+      <name>Edouard Lansiaux</name>
+      <email>edouard.lansiaux@orange.fr</email>
+    </author>
+    <category citation-format="numeric"/>
+    <category field="medicine"/>
+    <summary>Style pour les Annales Françaises de Médecine d'Urgence basé sur leurs normes de citations bibliographiques.</summary>
+    <updated>2024-12-18</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under une licence Creative Commons Attribution-ShareAlike 3.0.</rights>
+  </info>
+
+  <locale>
+    <terms>
+      <term name="et-al">et al</term>
+    </terms>
+  </locale>
+
+<macro name="author">
+  <names variable="author" et-al-min="4" et-al-use-first="3" delimiter=", " delimiter-precedes-last="never">
+      <name sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
+      <substitute>
+      <names variable="editor"/>
+	<name form="long" name-as-sort-order="all" sort-separator=" " suffix=" "/>
+    </substitute>
+  </names>
+</macro>
+
+  <macro name="year-parenth">
+    <date prefix="(" suffix=")" variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+
+  <macro name="title">
+    <choose>
+      <if type="chapter">
+        <group delimiter=". ">
+          <text variable="title" suffix=". "/>
+          <group delimiter=" ">
+            <text term="in" text-case="capitalize-first"/>
+            <names variable="editor">
+              <name form="long" initialize-with="" delimiter=" " delimiter-precedes-last="never"/>
+            </names>
+            <text variable="container-title"/>
+          </group>
+        </group>
+      </if>
+      <else>
+        <text variable="title" suffix=". "/>
+      </else>
+    </choose>
+  </macro>
+
+  <macro name="publication-info">
+    <choose>
+      <if type="book">
+        <group delimiter=", ">
+          <text variable="publisher"/>
+          <text variable="publisher-place"/>
+          <text variable="page"/>
+        </group>
+      </if>
+      <else-if type="article-journal">
+        <group delimiter=" ">
+          <text variable="container-title" form="short"/>
+          <group delimiter=":">
+            <text variable="volume"/>
+            <text variable="page"/>
+          </group>
+        </group>
+      </else-if>
+      <else-if type="paper-conference">
+        <group delimiter=", ">
+          <text variable="container-title" suffix=". "/>
+          <text variable="event" prefix="Conférence : " suffix=" "/>
+          <text variable="publisher"/>
+          <text variable="publisher-place"/>
+          <text variable="page"/>
+        </group>
+      </else-if>
+    </choose>
+  </macro>
+
+  <macro name="internet-access">
+    <choose>
+      <if type="webpage">
+        <group delimiter=" ">
+          <group suffix="">
+            <text variable="URL" suffix=" "/>
+            <date variable="accessed">
+              <date-part prefix="(Dernier accès le " name="day" suffix=" "/>
+              <date-part name="month" form="long" suffix=" "/>
+              <date-part name="year" suffix=")"/>
+            </date>
+          </group>
+        </group>
+      </if>
+    </choose>
+  </macro>
+
+  <citation collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="[" suffix="]" delimiter=", ">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+
+  <bibliography et-al-min="4" et-al-use-first="3" second-field-align="flush">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout>
+      <text variable="citation-number" suffix=""/>
+      <group delimiter=" ">
+        <text macro="author"/>
+        <text macro="year-parenth"/>
+        <text macro="title"/>
+      </group>
+      <text macro="publication-info"/>
+      <text macro="internet-access"/>
+    </layout>
+  </bibliography>
+</style>

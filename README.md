@@ -5,7 +5,7 @@ Package CSL pour Zotero afin d'automatiser la mise en forme des citations lors d
 Vous devez ouvrir les Préférences (Dans Firefox) pour Zotero, dans Cite, et ajouter le fichier avec le bouton '+'.
 Ou simplement Google comment ajouter un style de citation à partir du fichier .csl dans Zotero.
 
-## Règles de référencemenbt pour les A.F.M.U.
+## Règles de référencement pour les A.F.M.U.
 L’ensemble, rédigé sur un fichier séparé, comprend uniquement les références citées dans l’article. Les références sont rangées suivant l’ordre d’apparition dans le texte et numérotées. L’appel bibliographique se fait directement dans le texte, par le numéro de la référence entre crochets, avant le point final de la phrase. Les normes internationales sont utilisées de la façon suivante :
 
 ### Pour un ouvrage :

@@ -20,7 +20,7 @@ Comme précédemment pour les noms et prénoms. Année de publication entre pare
 
 Exemple : Hausfater P, Mégarbane B, Dautheville S, et al (2010) Prognostic factors in non-exertional heatstroke. Intensive Care Med 36:272-80
 
-# Pour les sites internet:
+### Pour les sites internet:
 
 Il faut faire figurer à la fin la date de dernier accès au site :
 

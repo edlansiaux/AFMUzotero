@@ -1,10 +1,10 @@
-# Zotero package for A.F.M.U. submission
-
 [![Using Zotero Plugin Template](https://img.shields.io/badge/Using-Zotero%20Plugin%20Template-blue?style=flat-round&logo=github)](https://github.com/windingwind/zotero-plugin-template)
 [![Latest release](https://img.shields.io/github/release/edlansiaux/AFMUzotero)](edlansiaux/AFMUzotero/releases)
 ![Release Date](https://img.shields.io/github/release-date/edlansiaux/AFMUzotero?color=9cf)
 [![License](https://img.shields.io/github/license/edlansiaux/AFMUzotero)](https://github.com/edlansiaux/AFMUzotero/blob/master/LICENSE)
 ![Downloads latest release](https://img.shields.io/github/downloads/edlansiaux/AFMUzotero/latest/total?color=yellow)
+
+# Zotero package for A.F.M.U. submission
 
 Zotero CSL package to automate citation formatting when submitting to [Annales Françaises de Médecine d'Urgence](https://www.jle.com/fr/revues/fmu/revue.phtml).
 

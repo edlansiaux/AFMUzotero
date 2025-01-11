@@ -13,6 +13,10 @@ You need to open the Preferences (In Firefox) for Zotero, in Cite, and Add the f
 
 Or just Google how to add a citation style from file .csl in Zotero.
 
+## Usage
+
+You need to uncheck the automatic button searching for journal abbreviations in Medline.
+
 ## Rules for the A.F.M.U.
 The whole, written on a separate file, includes only the references cited in the article. References are arranged in the order of appearance in the text and numbered. The bibliographic reference is made directly in the text, by the reference number in square brackets, before the final point of the sentence. International standards are used as follows:
 

@@ -21,15 +21,15 @@
     </terms>
   </locale>
 
-<macro name="author">
-  <names variable="author" et-al-min="4" et-al-use-first="3" delimiter=", " delimiter-precedes-last="never">
+  <macro name="author">
+    <names variable="author" et-al-min="4" et-al-use-first="3" delimiter=", " delimiter-precedes-last="never">
       <name sort-separator=" " initialize-with="" name-as-sort-order="all" delimiter=", " delimiter-precedes-last="always"/>
       <substitute>
-      <names variable="editor"/>
-	<name form="long" name-as-sort-order="all" sort-separator=" " suffix=" "/>
-    </substitute>
-  </names>
-</macro>
+        <names variable="editor"/>
+        <name form="long" name-as-sort-order="all" sort-separator=" " suffix=" "/>
+      </substitute>
+    </names>
+  </macro>
 
   <macro name="year-parenth">
     <date prefix="(" suffix=")" variable="issued">
@@ -84,21 +84,30 @@
           <text variable="page"/>
         </group>
       </else-if>
+      <else-if type="legislation">
+        <group delimiter=" ">
+          <text variable="container-title"/>
+          <text variable="number" prefix="n°" suffix=" du"/>
+          <date variable="issued">
+            <date-part name="day" suffix=" "/>
+            <date-part name="month" form="long" suffix=" "/>
+            <date-part name="year" suffix=" "/>
+          </date>
+        </group>
+      </else-if>
     </choose>
   </macro>
 
   <macro name="internet-access">
     <choose>
-      <if type="webpage">
+      <if type="webpage legislation">
         <group delimiter=" ">
-          <group suffix="">
-            <text variable="URL" suffix=" "/>
-            <date variable="accessed">
-              <date-part prefix="(Dernier accès le " name="day" suffix=" "/>
-              <date-part name="month" form="long" suffix=" "/>
-              <date-part name="year" suffix=")"/>
-            </date>
-          </group>
+          <text variable="URL" suffix=" "/>
+          <date variable="accessed">
+            <date-part prefix="(Dernier accès le " name="day" suffix=" "/>
+            <date-part name="month" form="long" suffix=" "/>
+            <date-part name="year" suffix=")."/>
+          </date>
         </group>
       </if>
     </choose>

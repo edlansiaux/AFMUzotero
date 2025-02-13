@@ -40,7 +40,7 @@ Example : Samu-urgences de France (2016) Livre blanc. Organisation de la médeci
 
 ### For regulatory texts:
 
-Body promulgating the text. Year of publication in parentheses. Full title of the regulation. Publication work. Website (Last accessed on …).
+Institution promulgating the text. Year of publication in parentheses. Full title of the regulation. Publication work. Website (Last accessed on …).
 
 Example: République Française (2015) Décret n° 2016-1597 du 25 novembre 2016 relatif à l'organisation du troisième cycle des études de médecine et modifiant le code de l'éducation. JORF n°0276 du 27 novembre 2016 www.legifrance.gouv.fr/eli/decret/2016/11/25/MENS1620996D/jo (Dernier accès le 1 Novembre 2023).
 

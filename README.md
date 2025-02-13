@@ -9,13 +9,20 @@
 Zotero CSL package to automate citation formatting when submitting to [Annales Françaises de Médecine d'Urgence](https://www.jle.com/fr/revues/fmu/revue.phtml).
 
 ## Installation
-You need to open the Preferences (In Firefox) for Zotero, in Cite, and Add the file with the '+' button. 
-
-Or just Google how to add a citation style from file .csl in Zotero.
+(1) Download the .csl file in this repository
+(2) Make sure Zotero is open 
+(3) Go into the "Edition" menu 
+(4) Open Zotero preferences. Click Cite, then Styles, then the "+" button, and select the style you downloaded (a . CSL file).
+(5) Click "OK" in the popup to add the citation style to Zotero. 
+It should be added automatically!
 
 ## Usage
 
 You need to uncheck the automatic button searching for journal abbreviations in Medline.
+
+### Reporting errors
+If this CSL style doesn’t give the expected output, first make sure that you are running the latest version of Zotero and have the most recent version of the style installed from the Zotero Style Repository. Once you have made sure that the style deviates from the style guide, instructions for authors, or published examples, report the error in the [Zotero Forums](https://www.zotero.org/forum). For your post, use the title “Style Error: [Name of style]”, and give a link to, or excerpt from, the style guide that shows that the CSL style is wrong. You can also try to edit the style yourself. 
+Futhermore, you could contact [here](edouard.lansiaux@orange.fr) the AFMUZotero package author in order to solve it.
 
 ## Rules for the A.F.M.U.
 The whole, written on a separate file, includes only the references cited in the article. References are arranged in the order of appearance in the text and numbered. The bibliographic reference is made directly in the text, by the reference number in square brackets, before the final point of the sentence. International standards are used as follows:

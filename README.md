@@ -25,6 +25,12 @@ It should be added automatically!
 
 You need to uncheck the automatic button searching for journal abbreviations in Medline.
 
+### Reference
+
+Please if you use this package for research, quote it as this:
+
+Lansiaux E (2025) Un nouvel outil pour le formatage des citations destinées aux Annales françaises de médecine d’urgence à l’aide de Zotero. Ann Fr Med Urgence 15 :1-2. doi : 10.1684/afmu.2025.0653
+
 ### Reporting errors
 If this CSL style doesn’t give the expected output, first make sure that you are running the latest version of Zotero and have the most recent version of the style installed from the Zotero Style Repository. Once you have made sure that the style deviates from the style guide, instructions for authors, or published examples, report the error in the [Zotero Forums](https://www.zotero.org/forum). For your post, use the title “Style Error: [Name of style]”, and give a link to, or excerpt from, the style guide that shows that the CSL style is wrong. You can also try to edit the style yourself. 
 
